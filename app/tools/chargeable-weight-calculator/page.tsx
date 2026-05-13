@@ -245,18 +245,18 @@ export default function ChargeableWeightCalculator() {
             </div>
 
             <div className="overflow-x-auto rounded-2xl border border-slate-200">
-              <table className="w-full min-w-[980px] text-left text-sm">
+              <table className="w-full text-left text-sm">
                 <thead className="bg-slate-100 text-slate-600">
                   <tr>
-                    <th className="p-3">Description</th>
-                    <th className="p-3">L cm</th>
-                    <th className="p-3">W cm</th>
-                    <th className="p-3">H cm</th>
-                    <th className="p-3">Pieces</th>
-                    <th className="p-3">Gross kg</th>
-                    <th className="p-3">Stackable</th>
-                    <th className="p-3">Vol. kg</th>
-                    <th className="p-3"></th>
+                    <th className="p-2">Description</th>
+                    <th className="p-2">L cm</th>
+                    <th className="p-2">W cm</th>
+                    <th className="p-2">H cm</th>
+                    <th className="p-2">Pieces</th>
+                    <th className="p-2">Gross kg</th>
+                    <th className="p-2">Stackable</th>
+                    <th className="p-2">Vol. kg</th>
+                    <th className="p-2"></th>
                   </tr>
                 </thead>
 
@@ -427,7 +427,7 @@ function TableInput({
         min="0"
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="w-24 rounded-xl border border-slate-300 px-3 py-2"
+        className="w-20 rounded-xl border border-slate-300 px-2 py-2"
       />
     </td>
   );
