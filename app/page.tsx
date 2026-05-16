@@ -15,7 +15,7 @@ export default function Home() {
             </div>
 
             <div className="hidden gap-6 text-sm font-semibold md:flex">
-              <a href="#tools" className="hover:text-green-700">Free Tools</a>
+              <a href="/tools" className="hover:text-green-700">Free Tools</a>
               <a href="#platform" className="hover:text-green-700">Platform</a>
               <a href="#contact" className="hover:text-green-700">Contact</a>
             </div>
@@ -38,7 +38,7 @@ export default function Home() {
 
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <a
-                  href="#tools"
+                  href="/tools"
                   className="rounded-2xl bg-slate-900 px-7 py-4 text-center font-bold text-white hover:bg-slate-800"
                 >
                   Try Free Tools
